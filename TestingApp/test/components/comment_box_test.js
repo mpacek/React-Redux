@@ -9,7 +9,7 @@ describe('CommentBox', () => {
     component = renderComponent(CommentBox);
   });
 
-  it('has a a correnct class', () => {
+  it('has a correnct class', () => {
     expect(component).to.have.class('comment-box');
   });
 
